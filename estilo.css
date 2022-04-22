@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-image: url(https://www.inemjose.edu.co/colegio/images/com_osgallery/gal-4/original/dsc0005E3B4E6C1-EAF2-9C6B-1C89-BD0B12222DBE.jpg);
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    background-color:#fa0011;
+    color: black;
+    padding: 2px;
+
+}
+h3 {
+    text-align: center;
+    background-color:#ffea00;
+    color: black;
+    padding: 2px;
+    
+}
+
+p{
+    text-align: center;
+    background-color: #069c6c;
+    color: white;
+    padding: 1px;
+}
+nav ul {
+    background-color: #069c6c;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+    text-size-adjust: 1px;
+    font-size: 15px;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display:block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+.vertical{
+
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:#069c6c;
+
+}
+.menu-horizontal:hover .vertical{
+    display: block;
+}
+.vertical li a{
+    display: block;
+    color:black;
+    padding: 15px 15px 15px 20px;
+    font-size: 15px;
+}
+
+
+
+nav > li {
+    float: left;
+    
+    
+} 
+
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: white;
+    padding: 1px;
+}
+img {
+   padding: 70px;
+   width: 400px;
+   height: 470px;
+   border-bottom: 50%;
+   display: block;
+   margin: auto;
+   background-color: none; /*Borde de imagenes Color*/
+}
+
+.contenedor1 {
+    border:  1px blue;
+    background-color: antiquewhite;
+    position: static;
+}
+
+.gif{
+    display: block;
+    margin: auto;
+    border-bottom: 50%;
+    padding: 50px;
+    position: static;
+    width: 7px;
+    height: 9px;
+    padding: 0;
+}
+
+
+  #paginacion {
+    background-color: green;
+    padding: .5em;
+  }
+ 
